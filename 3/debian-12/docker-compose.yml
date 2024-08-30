@@ -13,7 +13,7 @@ services:
     volumes:
       - 'mariadb_data:/bitnami/mariadb'
   phpbb:
-    image: docker.io/bitnami/phpbb:3
+    image: cmattoon/phpbb:v3.3.13
     ports:
       - '80:8080'
       - '443:8443'
